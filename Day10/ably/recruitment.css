@@ -1,0 +1,23 @@
+.recruitmentBox{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+
+    background-color: #ff5160;
+    padding: 20px 16px 20px 16px;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Pretendard-Regular';
+}
+.recruitmentBox:hover{
+    background-color: rgb(219, 59, 87);
+}
+@media screen and (max-width: 768px){
+    .recruitmentBox{
+        width: 80vw;
+        right: 8%;
+        text-align: center;
+    }
+}

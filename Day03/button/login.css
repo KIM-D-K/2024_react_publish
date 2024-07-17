@@ -1,0 +1,36 @@
+#login{
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 800;
+    color:white;
+    background-color: #2a47b7;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    width: 440px;
+    font-size: 18px;
+    margin: 20px 20px 20px 20px;
+}
+#kakao{
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 800;
+    color:#391b1b;
+    background-color: #fee500;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    width: 440px;
+    font-size: 18px;
+    margin: 20px 20px 20px 20px;
+}
+#naver{
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 800;
+    color:#fff;
+    background-color: #03c75a;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    width: 440px;
+    font-size: 18px;
+    margin: 20px 20px 20px 20px;
+}

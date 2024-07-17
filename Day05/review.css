@@ -1,0 +1,53 @@
+.naver{
+    height: 100px;
+    width: 100px;
+}
+.naver > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+
+.facebook{
+    height: 100px;
+    width: 100px;
+}
+.facebook > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 9999px;
+    object-fit: cover;
+}
+.apple{
+    width: 100px;
+    height: 100px;
+    border-radius: 9999px;
+    background-color: black;
+}
+.apple > i{
+    color: white;
+    font-size: 48px;
+}
+.kakao{
+    background-color: #fee500;
+    width: fit-content;
+    padding: 15px 30px 15px 30px;
+    border-radius: 7px;
+}
+.kakao > i{
+    margin-right: 4px;
+} 
+.appleLogin{
+    width: 250px;
+    padding: 15px 0px 15px 0px;
+    border-radius: 7px;
+    border: 2px solid #c7c7c7;
+    text-align: center;
+}
+.appleLogin > i{
+    margin: 4px;
+}   
+.apple > span{
+    font-weight: 800;
+}
