@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'NanumSquareNeoLight';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-aLt.ttf) format("truetype");
+}
+.werun{
+    width: 100vw;
+    height: 70vh;
+}
+.werun_container{
+    width: 100%;
+    height: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.werun_title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.werun_title > h3{
+    font-family: 'NanumSquareNeoLight';
+    font-weight: 1000;
+    color: black;
+}
+.werun_cardlist{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+.card{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.imageBox{
+    width: 100%;
+    height: 50%;
+}
+.imageBox > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cncept{
+    font-family: 'NanumSquareNeoLight';
+    font-size: 20px;
+    font-weight: 600;
+    color: #44444444;
+}
+
+@media screen and (max-width: 768px) {
+    .werun_title{
+        height: 100%;
+        padding-top: 100px;
+    }
+    .werun_cardlist{
+        flex-direction: column;
+    }
+}
